@@ -20,7 +20,7 @@ def get_toxicity_value(sentence: str, all_info=False):
     """
 
     # Create a client for the Perspective API
-    config = read_configuration('../../config/configuration.json')
+    config = read_configuration('config/configuration.json')
     API_KEY = config['Perspective API key']
     client = discovery.build(
         "commentanalyzer",

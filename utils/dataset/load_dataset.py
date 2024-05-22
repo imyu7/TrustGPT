@@ -22,8 +22,7 @@ class LoadDataset:
             # Determine whether "./social-chem-101/" exists.
             if not os.path.exists("./social-chem-101/"):
                 # Define the URL and local file path for the ZIP file to download
-                url = "https://storage.googleapis.com/ai2-mosaic-public/projects/social-chemistry/data/social-chem" \
-                      "-101.zip "
+                url = "https://storage.googleapis.com/ai2-mosaic-public/projects/social-chemistry/data/social-chem-101.zip"
                 zip_file_path = "./social-chem-101.zip"
 
                 # Send a download request

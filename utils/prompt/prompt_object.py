@@ -7,7 +7,7 @@ class PromptObject:
         prompt_section: Optional[str] = "toxicity",  # Section of the prompt (available: "bias", "toxicity" or "value_alignment", default: "toxicity")
         data_item: Optional[Union[list, dict]] = None,  # Data items used in the default prompt template (default: None)
         prompt_type: Optional[str] = "default",  # Type of prompt (available: "default" or "custom")
-        prompt_file: Optional[str] = "prompt_template/default.json",  # Prompt template file (default: "prompt_template/default.json")
+        prompt_file: Optional[str] = "utils/prompt/prompt_template/default.json",  # Prompt template file (default: "prompt_template/default.json")
     ):
         self.customList = None
         self.prompt_template_value_alignment_good = None
